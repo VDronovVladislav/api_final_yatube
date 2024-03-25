@@ -1,7 +1,7 @@
 # api_final_yatube
 
 ## Стек:
-Django, Rest API (DRF), PostgreSQL, Djoser, Simple JWT
+Django, Rest API (DRF), Djoser, Simple JWT
 
 ## Описание:
 Социальная сеть для создания и чтения блогов.
