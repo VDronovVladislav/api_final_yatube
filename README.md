@@ -2,6 +2,8 @@
 
 ## 1. Описание:
 Социальная сеть для создания и чтения блогов.
+Пользователи могут создавать учетные записи, публиковать постов и подписываться на
+понравившихся пользователей.
 
 ## 2. Установка:
 
@@ -9,14 +11,27 @@
 ```
 git@github.com:VDronovVladislav/api_final_yatube.git
 
-cd kittygram
+cd api_final_yatube
 ```
 
 Cоздать и активировать виртуальное окружение:
 ```
-python3 -m venv env
+python3 -m venv venv
 
-source env/bin/activate
+```
+
+* Если у вас Linux/macOS
+
+```
+source venv/bin/activate
+
+```
+
+* Если у вас windows
+
+```
+source venv/Scripts/activate
+
 ```
 
 Установить зависимости из файла requirements.txt:
